@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "298011682864",
+    "project_id": "ksrmdealerproject",
+    "storage_bucket": "ksrmdealerproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298011682864:android:baec995782cdbb9820a5f5",
+        "android_client_info": {
+          "package_name": "com.example.ksrm_sfa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298011682864-9o7ui2ndqj50bbuh72onkn91bl4gsck7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDKGSlDXQ5nDfx7syPflzFn84fyQV5XJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298011682864-9o7ui2ndqj50bbuh72onkn91bl4gsck7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298011682864:android:afcd6ca9fd51b16520a5f5",
+        "android_client_info": {
+          "package_name": "com.sixamtech.sixam_mart_delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298011682864-9o7ui2ndqj50bbuh72onkn91bl4gsck7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDKGSlDXQ5nDfx7syPflzFn84fyQV5XJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298011682864-9o7ui2ndqj50bbuh72onkn91bl4gsck7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
