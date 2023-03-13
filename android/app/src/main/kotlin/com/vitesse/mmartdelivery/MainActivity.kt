@@ -1,4 +1,4 @@
-package com.sixamtech.sixam_mart_delivery_app
+package com.vitesse.mmartdelivery
 
 import android.content.Intent
 import android.os.Bundle
@@ -17,7 +17,7 @@ class MainActivity : FlutterActivity() {
 
         val binaryMessenger = flutterEngine.dartExecutor.binaryMessenger
 
-        MethodChannel(binaryMessenger, "com.sixamtech/background_service").apply {
+        MethodChannel(binaryMessenger, "com.vitesse/background_service").apply {
             setMethodCallHandler { method, result ->
                 if (method.method == "startService") {
                     val callbackRawHandle = method.arguments as Long
@@ -34,7 +34,7 @@ class MainActivity : FlutterActivity() {
         }
 
 
-        MethodChannel(binaryMessenger, "com.sixamtech/app_retain").apply {
+        MethodChannel(binaryMessenger, "com.vitesse/app_retain").apply {
             setMethodCallHandler { method, result ->
                 if (method.method == "sendToBackground") {
                     moveTaskToBack(true)
